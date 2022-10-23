@@ -14,6 +14,6 @@ int sum(int n)
     return 1;
  }   
 int sumNm1 = sum(n-1);
-int sumN=sumNm1+n;
+int sumN=sumNm1 + n;
 return sumN;
 }

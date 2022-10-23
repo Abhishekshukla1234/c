@@ -1,7 +1,7 @@
 #include<stdio.h>
 int fact (int n);
 int main()
-{ int n,N;
+{ int n;
 printf("enter the value:");
 scanf("%d",&n);
     printf("factorial is : %d",fact(n));
