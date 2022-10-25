@@ -8,8 +8,9 @@ scanf("%d",&n);
     return 0;
 }
 int sum(int n)
+ 
 {
-    if(n==1)
+    if(n==1); 
  {
     return 1;
  }   
