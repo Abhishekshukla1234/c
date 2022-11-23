@@ -12,4 +12,4 @@ int main()
     printf("total price2:%f\n",price[1]+(0.18*price[1]));
     printf("total price3:%f\n",price[2]+(0.18*price[2]));
     return 0;
-    }
+    }''
