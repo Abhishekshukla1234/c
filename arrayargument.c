@@ -1,10 +1,9 @@
 #include<stdio.h>
 void printnumbers(int arr[],int n);
-int main()
-{    
-    int arr[]={1,2,3,4,5,6,7,8,9};
+int main(){
+    int n,i;
+    int arr[9]={1,2,3,4,5,6,7,8,9};
     printnumbers(arr,9);
-    return 0;
 }
 void printnumbers(int arr[],int n)
 {
@@ -12,5 +11,4 @@ void printnumbers(int arr[],int n)
     {
         printf("%d\t",arr[i]);
     }
-    printf("\n");
 }
