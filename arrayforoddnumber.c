@@ -2,10 +2,7 @@
 int countodd(int arr[],int n);
 int main()
 {
-    int n;
-    printf("enter the number:");
-    scanf("%d",&n);
-    int arr[]={n};
+     int arr[]={1,2,3,4,5,6,7,8,9};
     return 0;
 }
 int countodd(int arr[],int n)
