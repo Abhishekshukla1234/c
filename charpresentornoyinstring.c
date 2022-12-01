@@ -4,17 +4,17 @@ void checkchar(char str[],char ch);
 int main()
 {
     char str[]="Abhishek";
-    char ch='A';
+    char ch='b';
     checkchar(str,ch);
 }
 void checkchar(char str[],char ch)
 {
-    for(int i=0;str[i]='\0';i++)
+    for(int i=0;str[i]!='\0';i++)
     {
         if(str[i]=ch)
         {
             printf("character is  present");
-            return ;
+             return ;
         }
     }
         printf("character is not present");
