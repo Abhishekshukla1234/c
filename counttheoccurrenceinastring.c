@@ -9,8 +9,8 @@ int main()
 int countvowel(char str[])
 {   
      int count=0;
-     char arr[50];
-    for(int i=0;arr[i]='\0';i++)
+     
+    for(int i=0;str[i]!='\0';i++)
     {
         if(str[i]=='a' , str[i]=='e' , str[i]=='i', str[i]=='o', str[i]=='u')
     {
