@@ -2,7 +2,7 @@
 int main()
 {
     FILE*fptr;
-    fptr=fopen("SONU","r");
+    fptr=fopen("newfile.txt","r");
     char ch;
     ch=fgetc(fptr);
     while(ch!=EOF)
